@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  color: black;
+}
+
+@media (min-width:30em) and (orientation:lanscape){
+  body {background: yellow;}
+}
+
+@media(min-height:680px), screen and (orientation:portrait){
+  body {background:aqua; }
+
+
+}
+
+@media only screen and (max-width: 600px){
+  body {background: red;}
+}
+
+@media only screen and (min-width:600px){
+  body {background:green;}
+
+}
+
+@media only screen and (min-width:768px){
+  body {background:orange;}
+
+}
+
+@media only screen and (min-width:992px){
+  body {background: blue }
+}
+
+@media only screen and (min-width:1200px){
+  body {background: white;}
+}
+
+
+•header-wrapper{ position: sticky;
+  top: 0;
+  background-color:white;
+  color: #000;
+  text-align: center;
+}
+
