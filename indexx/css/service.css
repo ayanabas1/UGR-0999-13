@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Material Symbols Outlined', sans-serif;
+}
+.service{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(216, 123, 123);
+    transition: .3s;
+}
+
+.service__main__list{
+    background-color: beige;
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.img{
+    width="900"
+    height="500"
+}
+
+.service__list1{
+    margin-left: 50px;
+}
+
+.service__list2{
+    margin-left: 50px;
+}
+
+.service__list3{
+    margin-left: 50px;
+}
+
+.service__list4{
+    margin-left: 50px;
+}
+
+.service__links{
+    background-color: beige;
+    
+
+}
+.service__links p{
+    color: #5b2424;
+    font-size: 25px;
+    margin-top: 30px;
+    
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    margin-top: 500px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #dd8686;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+
+
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0b9b9;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+@media screen and (max-width:1160px){
+    .img{
+        width: 250px;
+        height: 400;
+    }
+    .service__main__list{
+        background-color: beige;
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 100px; */
+
+
+}
+}
